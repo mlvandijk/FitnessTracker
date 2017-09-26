@@ -12,5 +12,6 @@
   </head>
   <body>
   $END$
+  <h1>${greeting}</h1>
   </body>
 </html>
