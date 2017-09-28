@@ -6,7 +6,7 @@
 
     <groupId>com.pluralsight</groupId>
     <artifactId>FitnessTracker</artifactId>
-    <!--<packaging>war</packaging>-->
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>3.2.0.RELEASE</version>
+            <version>4.3.11.RELEASE</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
