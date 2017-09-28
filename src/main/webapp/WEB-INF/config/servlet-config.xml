@@ -12,7 +12,7 @@
     <context:component-scan base-package="com.pluralsight.controller"/>
 
     <!--shorthand-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsf" p:suffix=".jsp"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp"/>
 
     <!--long version-->
     <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
