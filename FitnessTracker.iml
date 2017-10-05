@@ -18,6 +18,7 @@
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
           <root url="file://$MODULE_DIR$/src/main/webapp" />
         </sourceRoots>
       </configuration>
@@ -30,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/webapp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -45,5 +47,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
   </component>
 </module>
