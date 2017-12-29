@@ -15,8 +15,9 @@ import java.util.List;
 public class MinutesController {
 
     @RequestMapping(value="/addMinutes")
-    public String addMinutes(@ModelAttribute("exercise")Exercise exercise){
+    public String addMinutes(@ModelAttribute("exercise") Exercise exercise){
         System.out.println("exercise: " + exercise.getMinutes());
+        System.out.println("exercise activity: " + exercise.getActivity());
         return "addMinutes";
     }
 
@@ -30,11 +31,11 @@ public class MinutesController {
 
         Activity bike = new Activity();
         bike.setDesc("bike");
-        activities.add(run);
+        activities.add(bike);
 
         Activity swim = new Activity();
         swim.setDesc("swim");
-        activities.add(run);
+        activities.add(swim);
 
         return activities;
     }

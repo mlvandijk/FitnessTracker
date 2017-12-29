@@ -4,6 +4,16 @@ public class Exercise {
 
     private int minutes;
 
+    public String getActivity() {
+        return activity;
+    }
+
+    public void setActivity(String activity) {
+        this.activity = activity;
+    }
+
+    private String activity;
+
 
     public int getMinutes() {
         return minutes;

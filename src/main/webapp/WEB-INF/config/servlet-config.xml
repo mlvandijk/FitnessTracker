@@ -24,8 +24,8 @@
                     <bean class="org.springframework.web.accept.PathExtensionContentNegotiationStrategy">
                         <constructor-arg>
                             <map>
-                                <entry key="json" value="application/json"></entry>
-                                <entry key="xml" value="application/xml"></entry>
+                                <entry key="json" value="application/json"/>
+                                <entry key="xml" value="application/xml"/>
                             </map>
                         </constructor-arg>
                     </bean>
@@ -44,7 +44,6 @@
                         </bean>
                     </constructor-arg>
                 </bean>
-
             </list>
         </property>
     </bean>
@@ -54,7 +53,8 @@
         <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" p:paramName="language"/>
     </mvc:interceptors>
 
-    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" p:basename="messages"></bean>
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource"
+          p:basename="messages"/>
 
     <!--shorthand-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:order="2"/>
