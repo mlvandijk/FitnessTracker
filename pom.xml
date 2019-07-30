@@ -11,7 +11,7 @@
 
     <properties>
         <springframework.version>4.3.5.RELEASE</springframework.version>
-        <jackson.version>2.9.7</jackson.version>
+        <jackson.version>2.9.9.2</jackson.version>
     </properties>
     <dependencies>
         <dependency>
