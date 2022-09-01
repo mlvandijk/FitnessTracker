@@ -1,6 +1,4 @@
-package com.pluralsight.model;
-
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+package com.maritvandijk.model;
 
 public class Activity {
     public String getDesc() {

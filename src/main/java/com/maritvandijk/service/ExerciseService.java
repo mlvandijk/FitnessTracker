@@ -1,6 +1,6 @@
-package com.pluralsight.service;
+package com.maritvandijk.service;
 
-import com.pluralsight.model.Activity;
+import com.maritvandijk.model.Activity;
 
 import java.util.List;
 

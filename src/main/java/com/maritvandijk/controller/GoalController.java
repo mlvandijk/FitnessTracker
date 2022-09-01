@@ -1,6 +1,6 @@
-package com.pluralsight.controller;
+package com.maritvandijk.controller;
 
-import com.pluralsight.model.Goal;
+import com.maritvandijk.model.Goal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

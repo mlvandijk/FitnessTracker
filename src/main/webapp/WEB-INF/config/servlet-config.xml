@@ -12,7 +12,7 @@
 
     <mvc:resources mapping="/pdfs/**" location="pdfs" />
 
-    <context:component-scan base-package="com.pluralsight"/>
+    <context:component-scan base-package="com.maritvandijk"/>
 
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver" p:defaultLocale="en" />
 

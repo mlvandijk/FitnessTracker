@@ -1,8 +1,8 @@
-package com.pluralsight.controller;
+package com.maritvandijk.controller;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
-import com.pluralsight.service.ExerciseService;
+import com.maritvandijk.model.Activity;
+import com.maritvandijk.model.Exercise;
+import com.maritvandijk.service.ExerciseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
