@@ -1,3 +1,7 @@
+**Note:** This is an old project, now used in demos about ways to look for and update dependencies.
+
+========================================================================
+
 # FitnessTracker
 FitnessTracker app based on Introduction to Spring MVC course on Pluralsight.
 
